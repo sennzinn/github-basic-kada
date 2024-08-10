@@ -1,0 +1,198 @@
+/* PC スマホ共通スタイル */
+body{
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto 20px auto;
+  max-width: 960px;
+}
+
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 34px;
+  color: black;
+}
+
+.home {
+  border: 1px solid black;
+  padding: 0px 20px;
+  margin-left: 20px;
+}
+
+.menu > a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* メイン画像 */
+.image-main > img{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* About */
+/* タイトル */
+.about{
+  font-size: 34px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin: 20px auto;
+  max-width: 960px;
+}
+
+/* 自己紹介 */
+.profile{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto 20px auto;
+  position: relative;
+}
+
+.profile > img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin:20px; 
+  padding: 5px;
+}
+
+.text > p{
+  font-size: 24px;
+  font-weight: bold ;
+  margin: 20px 0;
+  
+}
+
+.text > ul{
+  font-size: 18px ;
+  margin: 20px 0;
+  padding-left: 40px;
+}
+
+/* 仕事内容 */
+.works{
+  font-size: 34px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin: 20px auto;
+  max-width: 960px;
+}
+
+.works-group{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ margin: 20px auto;
+}
+
+.workimage> img{
+  width: 180px;
+  height: 130px;
+}
+
+.workimage > p{
+  width: 180px;
+  height: 80px;
+  margin: 20px 0;
+}
+
+.workimage-center > img{
+  width: 180px;
+  height: 130px;
+  padding: 0 20px ;
+}
+
+.workimage-center > p{
+  width: 180px;
+  height: 130px;
+  padding: 0 20px;
+}
+
+/* フッター */
+footer p {
+  text-align: center;
+  padding-bottom: 20px;
+  
+}
+
+
+@media screen and (max-width: 767px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto 20px auto;
+    max-width: 960px;
+  }
+
+  nav a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 34px;
+    color: black;
+  }
+
+  .home {
+    border: 1px solid black;
+    padding: 0px 20px;
+    margin-left: 20px;
+  }
+  
+  .menu > a {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    position: relative;
+  }
+
+  .works-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  .workimage > img{
+    width: 400px;
+    height: 250px;
+  }
+  
+  .workimage > p{
+    width: 400px;
+    height: 100px;
+  }
+  
+  .workimage-center > img{
+    width: 400px;
+    height: 250px;
+  }
+  
+  .workimage-center > p{
+    width: 400px;
+    height: 100px;
+  }
+
+}
